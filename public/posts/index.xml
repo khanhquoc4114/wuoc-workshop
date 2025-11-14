@@ -6,21 +6,7 @@
     <description>Recent content in Posts on Wuoc&#39;s Site</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Nov 2025 12:46:18 +0700</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello</title>
-      <link>http://localhost:1313/posts/hello/</link>
-      <pubDate>Fri, 14 Nov 2025 12:46:18 +0700</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bai Viet Dau Tien</title>
-      <link>http://localhost:1313/posts/bai-viet-dau-tien/</link>
-      <pubDate>Fri, 14 Nov 2025 11:47:33 +0700</pubDate>
-      <guid>http://localhost:1313/posts/bai-viet-dau-tien/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
