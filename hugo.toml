@@ -1,0 +1,79 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Wuoc's Site"
+theme = 'PaperMod'
+
+tomlbaseURL = 'http://localhost:1313/'
+
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Minify output
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+[params.profileMode]
+    enabled = true
+    title = "Tên của bạn"
+    subtitle = "Mô tả ngắn"
+    imageUrl = "/images/avatar.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Avatar"
+    
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts"
+    
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "/tags"
+
+ 
+[params.homeInfoParams]
+  Title = "Chào mừng đến blog của tôi"
+  Content = "Đây là mô tả ngắn về blog"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/khanhquoc4114"
+
+[[params.socialIcons]]
+  name = "facebook"
+  url = "https://twitter.com/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 5
+  
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 6
