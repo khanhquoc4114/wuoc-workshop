@@ -3,7 +3,7 @@ title : "Làm giàu kết quả bảo mật với dữ liệu điều tra"
 date : "`r Sys.Date()`"
 weight : 5
 chapter : false
-pre : " <b> 5.5 </b> "
+pre : " <b> 2.5 </b> "
 ---
 Trong bối cảnh mối đe dọa đang thay đổi nhanh chóng ngày nay, việc hiểu rõ rủi ro và tìm ra nguyên nhân gốc rễ của một vấn đề một cách kịp thời là điều quan trọng đối với các doanh nghiệp. **Amazon Detective** giúp dễ dàng phân tích, điều tra và nhanh chóng xác định nguyên nhân gốc rễ của các vấn đề bảo mật tiềm ẩn hoặc hoạt động đáng ngờ. **Amazon Detective** hỗ trợ khả năng tự động điều tra các thực thể **AWS Identity and Access Management (IAM)** để tìm các chỉ báo về việc bị xâm phạm (**IoC**). Khả năng này giúp các nhà phân tích bảo mật xác định xem các thực thể **IAM** có thể đã bị xâm phạm hoặc tham gia vào bất kỳ chiến thuật, kỹ thuật và quy trình (**TTP**) nào được biết đến từ **MITRE ATT&CK framework**. Bạn có thể sử dụng **Detective Investigation API** một cách lập trình để giúp điều tra các vấn đề bảo mật tiềm ẩn.
 
